@@ -4,7 +4,6 @@ setlocal enabledelayedexpansion
 set max_h=12
 set wait_s=3600
 set url=https://colab.research.google.com/drive/1FfTkeYY3XLIygvmy_t0CPIc0dixuLGNe
-set url=<url>
 set file=google_colab.log
 
 if exist %file% del %file%
